@@ -57,3 +57,6 @@
 
 <%= link_to 'Edit', edit_sasaeru_path(@sasaeru) %> |
 <%= link_to 'Back', sasaerus_path %>
+<hr>
+
+<%= link_to "Print PDF", sasaeru_path(@sasaeru, format: "pdf") %>
