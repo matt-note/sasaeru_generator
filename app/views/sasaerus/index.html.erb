@@ -1,0 +1,47 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Sasaerus</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Top text</th>
+      <th>Title</th>
+      <th>Sub title</th>
+      <th>Author</th>
+      <th>Base color</th>
+      <th>Lead</th>
+      <th>Sub lead 1</th>
+      <th>Sub lead 2</th>
+      <th>Sub lead 3</th>
+      <th>Sub lead 4</th>
+      <th>Bottom text</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @sasaerus.each do |sasaeru| %>
+      <tr>
+        <td><%= sasaeru.top_text %></td>
+        <td><%= sasaeru.title %></td>
+        <td><%= sasaeru.sub_title %></td>
+        <td><%= sasaeru.author %></td>
+        <td><%= sasaeru.base_color %></td>
+        <td><%= sasaeru.lead %></td>
+        <td><%= sasaeru.sub_lead_1 %></td>
+        <td><%= sasaeru.sub_lead_2 %></td>
+        <td><%= sasaeru.sub_lead_3 %></td>
+        <td><%= sasaeru.sub_lead_4 %></td>
+        <td><%= sasaeru.bottom_text %></td>
+        <td><%= link_to 'Show', sasaeru %></td>
+        <td><%= link_to 'Edit', edit_sasaeru_path(sasaeru) %></td>
+        <td><%= link_to 'Destroy', sasaeru, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Sasaeru', new_sasaeru_path %>

@@ -1,0 +1,2 @@
+class Sasaeru < ApplicationRecord
+end
