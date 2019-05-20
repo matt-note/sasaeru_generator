@@ -1,24 +1,6 @@
-# README
+# 支える技術ジェネレーター
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+ブログや技術同人誌でも使える「〇〇を支える技術」画像のジェネレーターです。
 
-Things you may want to cover:
+![sasaeru](https://user-images.githubusercontent.com/39484102/58025383-4ca49c80-7b4f-11e9-9522-8995bb787c00.png)
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
