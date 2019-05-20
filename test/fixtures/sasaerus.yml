@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  top_text: MyString
+  title: MyString
+  sub_title: MyString
+  author: MyString
+  base_color: MyString
+  lead: MyString
+  sub_lead_1: MyString
+  sub_lead_2: MyString
+  sub_lead_3: MyString
+  sub_lead_4: MyString
+  bottom_text: MyString
+
+two:
+  top_text: MyString
+  title: MyString
+  sub_title: MyString
+  author: MyString
+  base_color: MyString
+  lead: MyString
+  sub_lead_1: MyString
+  sub_lead_2: MyString
+  sub_lead_3: MyString
+  sub_lead_4: MyString
+  bottom_text: MyString

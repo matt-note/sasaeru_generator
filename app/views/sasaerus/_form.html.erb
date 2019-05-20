@@ -1,0 +1,72 @@
+<%= form_with(model: sasaeru, local: true) do |form| %>
+  <% if sasaeru.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(sasaeru.errors.count, "error") %> prohibited this sasaeru from being saved:</h2>
+
+      <ul>
+      <% sasaeru.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :top_text %>
+    <%= form.text_field :top_text %>
+  </div>
+
+  <div class="field">
+    <%= form.label :title %>
+    <%= form.text_field :title %>
+  </div>
+
+  <div class="field">
+    <%= form.label :sub_title %>
+    <%= form.text_field :sub_title %>
+  </div>
+
+  <div class="field">
+    <%= form.label :author %>
+    <%= form.text_field :author %>
+  </div>
+
+  <div class="field">
+    <%= form.label :base_color %>
+    <%= form.text_field :base_color %>
+  </div>
+
+  <div class="field">
+    <%= form.label :lead %>
+    <%= form.text_field :lead %>
+  </div>
+
+  <div class="field">
+    <%= form.label :sub_lead_1 %>
+    <%= form.text_field :sub_lead_1 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :sub_lead_2 %>
+    <%= form.text_field :sub_lead_2 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :sub_lead_3 %>
+    <%= form.text_field :sub_lead_3 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :sub_lead_4 %>
+    <%= form.text_field :sub_lead_4 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :bottom_text %>
+    <%= form.text_field :bottom_text %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
