@@ -13,7 +13,7 @@ class SasaerusController < ApplicationController
     respond_to do |format|
       format.html
       format.pdf { send_pdf(@sasaeru) }
-      format.png { send_png(@sasaeru) }
+      # format.png { send_png(@sasaeru) }
     end
   end
 
