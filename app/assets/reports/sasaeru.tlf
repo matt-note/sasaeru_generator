@@ -6,15 +6,15 @@
       "type": "rect",
       "display": true,
       "description": "",
-      "x": 0.9,
-      "y": 34.4,
+      "x": -78.4,
+      "y": 28.3,
       "width": 594.3,
-      "height": 428.9,
+      "height": 430.8,
       "style": {
         "border-color": "#ffffff",
         "border-width": 1,
         "border-style": "solid",
-        "fill-color": "#FFFFFF"
+        "fill-color": "#ffffff"
       },
       "border-radius": 0
     },
@@ -26,7 +26,7 @@
       "x": 0,
       "y": 0,
       "width": 595.2,
-      "height": 33,
+      "height": 28.3,
       "style": {
         "border-color": "#000000",
         "border-width": 1,
@@ -40,15 +40,15 @@
       "type": "text-block",
       "display": true,
       "description": "",
-      "x": 35.3,
-      "y": 5.9,
+      "x": 20,
+      "y": 10.2,
       "width": 360,
-      "height": 31.5,
+      "height": 22.5,
       "style": {
         "font-family": [
           "Helvetica"
         ],
-        "font-size": 28,
+        "font-size": 20,
         "color": "#ffffff",
         "text-align": "left",
         "vertical-align": "top",
@@ -72,10 +72,10 @@
       "type": "text-block",
       "display": true,
       "description": "",
-      "x": 33.6,
-      "y": 84,
-      "width": 528,
-      "height": 171,
+      "x": 21.9,
+      "y": 53.5,
+      "width": 472.1,
+      "height": 149,
       "style": {
         "font-family": [
           "IPAPMincho"
@@ -104,10 +104,10 @@
       "type": "rect",
       "display": true,
       "description": "",
-      "x": 127.5,
-      "y": 276.9,
-      "width": 366.3,
-      "height": 40,
+      "x": 77.1,
+      "y": 221.6,
+      "width": 361.8,
+      "height": 41.8,
       "style": {
         "border-color": "none",
         "border-width": 1,
@@ -121,15 +121,15 @@
       "type": "text-block",
       "display": true,
       "description": "",
-      "x": 135.6,
-      "y": 281.8,
+      "x": 83,
+      "y": 229,
       "width": 350,
-      "height": 31,
+      "height": 28.3,
       "style": {
         "font-family": [
           "IPAPMincho"
         ],
-        "font-size": 28,
+        "font-size": 26,
         "color": "#000000",
         "text-align": "center",
         "vertical-align": "top",
@@ -153,15 +153,15 @@
       "type": "text-block",
       "display": true,
       "description": "",
-      "x": 137.6,
-      "y": 347,
+      "x": 83,
+      "y": 286.4,
       "width": 350,
-      "height": 24,
+      "height": 20,
       "style": {
         "font-family": [
           "IPAPGothic"
         ],
-        "font-size": 22,
+        "font-size": 18,
         "color": "#000000",
         "text-align": "center",
         "vertical-align": "top",
@@ -185,15 +185,15 @@
       "type": "text",
       "display": true,
       "description": "",
-      "x": 281.6,
-      "y": 381,
+      "x": 229.5,
+      "y": 313.8,
       "width": 57,
       "height": 25,
       "style": {
         "font-family": [
           "IPAPMincho"
         ],
-        "font-size": 20,
+        "font-size": 16,
         "color": "#000000",
         "text-align": "center",
         "vertical-align": "top",
@@ -211,15 +211,15 @@
       "type": "rect",
       "display": true,
       "description": "",
-      "x": 0,
-      "y": 463,
+      "x": -79.3,
+      "y": 396.7,
       "width": 595.2,
-      "height": 378.8,
+      "height": 331.8,
       "style": {
         "border-color": "none",
         "border-width": 1,
         "border-style": "solid",
-        "fill-color": "#3f3f3f"
+        "fill-color": "#0c0c0c"
       },
       "border-radius": 0
     },
@@ -228,10 +228,10 @@
       "type": "text-block",
       "display": true,
       "description": "",
-      "x": 52.6,
-      "y": 493.1,
-      "width": 497,
-      "height": 108,
+      "x": 20.1,
+      "y": 407.1,
+      "width": 475.9,
+      "height": 103.9,
       "style": {
         "font-family": [
           "IPAPMincho"
@@ -260,10 +260,10 @@
       "type": "rect",
       "display": true,
       "description": "",
-      "x": 0.6,
-      "y": 788,
-      "width": 594.6,
-      "height": 53.8,
+      "x": -0.1,
+      "y": 648.3,
+      "width": 516,
+      "height": 80.2,
       "style": {
         "border-color": "#d8d8d8",
         "border-width": 1,
@@ -277,18 +277,50 @@
       "type": "text-block",
       "display": true,
       "description": "",
-      "x": 59.5,
-      "y": 617,
-      "width": 486,
-      "height": 29.7,
+      "x": 26.3,
+      "y": 525,
+      "width": 462.9,
+      "height": 19,
       "style": {
         "font-family": [
           "IPAPMincho"
         ],
-        "font-size": 24,
+        "font-size": 18,
         "color": "#ffffff",
         "text-align": "center",
         "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": [],
+        "overflow": "fit",
+        "word-wrap": "none"
+      },
+      "reference-id": "",
+      "value": "",
+      "multiple-line": false,
+      "format": {
+        "base": "",
+        "type": ""
+      }
+    },
+    {
+      "id": "bottom_text",
+      "type": "text-block",
+      "display": true,
+      "description": "",
+      "x": 27.5,
+      "y": 655.8,
+      "width": 461,
+      "height": 45,
+      "style": {
+        "font-family": [
+          "IPAPMincho"
+        ],
+        "font-size": 28,
+        "color": "#000000",
+        "text-align": "center",
+        "vertical-align": "middle",
         "line-height": "",
         "line-height-ratio": "",
         "letter-spacing": "",
@@ -305,51 +337,19 @@
       }
     },
     {
-      "id": "bottom_text",
-      "type": "text-block",
-      "display": true,
-      "description": "",
-      "x": 41,
-      "y": 804.2,
-      "width": 478,
-      "height": 28,
-      "style": {
-        "font-family": [
-          "IPAPMincho"
-        ],
-        "font-size": 26,
-        "color": "#000000",
-        "text-align": "center",
-        "vertical-align": "top",
-        "line-height": "",
-        "line-height-ratio": "",
-        "letter-spacing": "",
-        "font-style": [],
-        "overflow": "truncate",
-        "word-wrap": "none"
-      },
-      "reference-id": "",
-      "value": "",
-      "multiple-line": false,
-      "format": {
-        "base": "",
-        "type": ""
-      }
-    },
-    {
       "id": "sub_lead_2",
       "type": "text-block",
       "display": true,
       "description": "",
-      "x": 59.5,
-      "y": 655.1,
-      "width": 483.4,
-      "height": 26,
+      "x": 26.3,
+      "y": 554.4,
+      "width": 462.9,
+      "height": 19,
       "style": {
         "font-family": [
           "IPAPMincho"
         ],
-        "font-size": 24,
+        "font-size": 18,
         "color": "#ffffff",
         "text-align": "center",
         "vertical-align": "top",
@@ -373,15 +373,15 @@
       "type": "text-block",
       "display": true,
       "description": "",
-      "x": 59.5,
-      "y": 692.9,
-      "width": 483.3,
-      "height": 26,
+      "x": 26.3,
+      "y": 583.9,
+      "width": 462.9,
+      "height": 19,
       "style": {
         "font-family": [
           "IPAPMincho"
         ],
-        "font-size": 24,
+        "font-size": 18,
         "color": "#ffffff",
         "text-align": "center",
         "vertical-align": "top",
@@ -405,15 +405,15 @@
       "type": "text-block",
       "display": true,
       "description": "",
-      "x": 59.5,
-      "y": 729.1,
-      "width": 480.8,
-      "height": 26,
+      "x": 26.3,
+      "y": 612.2,
+      "width": 461,
+      "height": 19,
       "style": {
         "font-family": [
           "IPAPMincho"
         ],
-        "font-size": 24,
+        "font-size": 18,
         "color": "#ffffff",
         "text-align": "center",
         "vertical-align": "top",
@@ -431,23 +431,55 @@
         "base": "",
         "type": ""
       }
+    },
+    {
+      "id": "publisher",
+      "type": "text-block",
+      "display": true,
+      "description": "",
+      "x": 26.3,
+      "y": 706.7,
+      "width": 450.8,
+      "height": 13.3,
+      "style": {
+        "font-family": [
+          "IPAPGothic"
+        ],
+        "font-size": 12,
+        "color": "#000000",
+        "text-align": "center",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": [],
+        "overflow": "truncate",
+        "word-wrap": "none"
+      },
+      "reference-id": "",
+      "value": "",
+      "multiple-line": false,
+      "format": {
+        "base": "",
+        "type": ""
+      }
     }
   ],
   "state": {
     "layout-guides": [
       {
         "type": "x",
-        "position": 59.5
+        "position": 26.3
       },
       {
         "type": "y",
-        "position": 84
+        "position": 32.7
       }
     ]
   },
   "title": "sasaeru",
   "report": {
-    "paper-type": "A4",
+    "paper-type": "B5",
     "orientation": "portrait",
     "margin": [
       20,

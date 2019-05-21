@@ -74,7 +74,7 @@ class SasaerusController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def sasaeru_params
-      params.require(:sasaeru).permit(:top_text, :title, :sub_title, :author, :base_color, :lead, :sub_lead_1, :sub_lead_2, :sub_lead_3, :sub_lead_4, :bottom_text)
+      params.require(:sasaeru).permit(:top_text, :title, :sub_title, :author, :base_color, :lead, :sub_lead_1, :sub_lead_2, :sub_lead_3, :sub_lead_4, :bottom_text, :publisher)
     end
 
     def send_pdf(sasaeru)
@@ -120,6 +120,7 @@ class SasaerusController < ApplicationController
       report.page.item(:sub_lead_4).value(sasaeru.sub_lead_4)
 
       report.page.item(:bottom_text).value(sasaeru.bottom_text)
+      report.page.item(:publisher).value(sasaeru.publisher)
 
       report.generate
     end

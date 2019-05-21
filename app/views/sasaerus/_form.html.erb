@@ -18,7 +18,7 @@
 
   <div class="field">
     <%= form.label :title %>
-    <%= form.text_field :title, value: "〇〇〇〇〇〇〇〇を支える技術" %>
+    <%= form.text_field :title, value: "〇〇〇〇〇〇〇を支える技術" %>
   </div>
 
   <div class="field">
@@ -37,33 +37,38 @@
   </div>
 
   <div class="field">
-    <%= form.label :lead %>
-    <%= form.text_area :lead, value: "なんらかの文章。なんらかの文章  なんらかの文章。" %>
+    <%= form.label :lead, class: "text-area" %>
+    <%= form.text_area :lead, rows: 3, cols: 30, value: "なんらかの文章。なんらかの文章  なんらかの文章。" %>
   </div>
 
   <div class="field">
     <%= form.label :sub_lead_1 %>
-    <%= form.text_field :sub_lead_1, value: 'Lorem ipsum／dolor sit amet／consectetur' %>
+    <%= form.text_field :sub_lead_1, size: 30, value: 'Lorem ipsum／dolor sit amet／consectetur' %>
   </div>
 
   <div class="field">
     <%= form.label :sub_lead_2 %>
-    <%= form.text_field :sub_lead_2, value: 'adipiscing elit／Duis orci dolor／consequat' %>
+    <%= form.text_field :sub_lead_2, size: 30, value: 'adipiscing elit／Duis orci dolor／consequat' %>
   </div>
 
   <div class="field">
     <%= form.label :sub_lead_3 %>
-    <%= form.text_field :sub_lead_3, value: 'vitae dolor non／tincidunt／maximus felis' %>
+    <%= form.text_field :sub_lead_3, size: 30, value: 'vitae dolor non／tincidunt／maximus felis' %>
   </div>
 
   <div class="field">
     <%= form.label :sub_lead_4 %>
-    <%= form.text_field :sub_lead_4, value: 'Lorem ipsum／dolor sit amet／consectetur' %>
+    <%= form.text_field :sub_lead_4, size: 30, value: 'Lorem ipsum／dolor sit amet／consectetur' %>
   </div>
 
   <div class="field">
     <%= form.label :bottom_text %>
-    <%= form.text_field :bottom_text, value: 'なんらかのボトムテキスト' %>
+    <%= form.text_field :bottom_text, size: 30, value: 'なんらかのボトムテキスト' %>
+  </div>
+  
+  <div class="field">
+    <%= form.label :publisher %>
+    <%= form.text_field :publisher, size: 30, value: '〇〇評論社' %>
   </div>
 
   <div class="actions">
