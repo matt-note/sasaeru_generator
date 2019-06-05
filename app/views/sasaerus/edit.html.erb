@@ -1,5 +1,13 @@
-<h1>〇〇を支える技術ジェネレーター</h1>
+<div class="row justify-content-center mb-4">
+  <h1>〇〇を支える技術ジェネレーター</h1>
+</div>
 
-<%= render 'form', sasaeru: @sasaeru %>
+<div class="row justify-content-center">
+  <div class="col-lg-4">
+    <%= render 'form', sasaeru: @sasaeru %>
+  </div>
 
-<%= link_to '戻る', @sasaeru %> 
+  <div class="col-lg-5">
+    <%= image_tag "sasaeru.jpg", width: "450px" %>
+  </div>
+</div>
