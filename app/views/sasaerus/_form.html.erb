@@ -13,62 +13,62 @@
 
   <div class="field">
     <%= form.label :top_text %>
-    <%= form.text_field :top_text, value: "WAVE+BB PRESS" %>
+    <%= form.text_field :top_text, value: @sasaeru.top_text %>
   </div>
 
   <div class="field">
     <%= form.label :title %>
-    <%= form.text_field :title, value: "〇〇〇〇〇〇〇を支える技術" %>
+    <%= form.text_field :title, value: @sasaeru.title %>
   </div>
 
   <div class="field">
     <%= form.label :sub_title %>
-    <%= form.text_field :sub_title, value: "なんらかのサブタイトル" %>
+    <%= form.text_field :sub_title, value: @sasaeru.sub_title %>
   </div>
 
   <div class="field">
     <%= form.label :author %>
-    <%= form.text_field :author, value: "名無しの権兵衛" %>
+    <%= form.text_field :author, value: @sasaeru.author %>
   </div>
 
   <div class="field">
     <%= form.label :base_color %>
-    <%= form.color_field :base_color, value: '#b2a2c7' %>
+    <%= form.color_field :base_color, value: @sasaeru.base_color %>
   </div>
 
   <div class="field">
     <%= form.label :lead, class: "text-area" %>
-    <%= form.text_area :lead, rows: 3, cols: 30, value: "なんらかの文章。なんらかの文章  なんらかの文章。" %>
+    <%= form.text_area :lead, rows: 3, cols: 30, value: @sasaeru.lead %>
   </div>
 
   <div class="field">
     <%= form.label :sub_lead_1 %>
-    <%= form.text_field :sub_lead_1, size: 30, value: 'Lorem ipsum／dolor sit amet／consectetur' %>
+    <%= form.text_field :sub_lead_1, size: 30, value: @sasaeru.sub_lead_1 %>
   </div>
 
   <div class="field">
     <%= form.label :sub_lead_2 %>
-    <%= form.text_field :sub_lead_2, size: 30, value: 'adipiscing elit／Duis orci dolor／consequat' %>
+    <%= form.text_field :sub_lead_2, size: 30, value: @sasaeru.sub_lead_2 %>
   </div>
 
   <div class="field">
     <%= form.label :sub_lead_3 %>
-    <%= form.text_field :sub_lead_3, size: 30, value: 'vitae dolor non／tincidunt／maximus felis' %>
+    <%= form.text_field :sub_lead_3, size: 30, value: @sasaeru.sub_lead_3 %>
   </div>
 
   <div class="field">
     <%= form.label :sub_lead_4 %>
-    <%= form.text_field :sub_lead_4, size: 30, value: 'Lorem ipsum／dolor sit amet／consectetur' %>
+    <%= form.text_field :sub_lead_4, size: 30, value: @sasaeru.sub_lead_4 %>
   </div>
 
   <div class="field">
     <%= form.label :bottom_text %>
-    <%= form.text_field :bottom_text, size: 30, value: 'なんらかのボトムテキスト' %>
+    <%= form.text_field :bottom_text, size: 30, value: @sasaeru.bottom_text %>
   </div>
-  
+
   <div class="field">
     <%= form.label :publisher %>
-    <%= form.text_field :publisher, size: 30, value: '〇〇評論社' %>
+    <%= form.text_field :publisher, size: 30, value: @sasaeru.publisher %>
   </div>
 
   <div class="actions">
