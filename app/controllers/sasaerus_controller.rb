@@ -84,20 +84,20 @@ class SasaerusController < ApplicationController
                 disposition: "attachment")
     end
 
-    # def send_png(sasaeru)
-    #   pdf = MiniMagick::Image.open(send_pdf(sasaeru))
-    #
-    #   MiniMagick::Tool::Convert.new do |convert|
-    #     convert << pdf.pages.first.path
-    #     convert << "png:8sasaeru.png"
-    #     png = convert
-    #   end
-    #
-    #   send_data(png,
-    #             filename: "sasaeru.png",
-    #             type: "image/png",
-    #             disposition: "attachment")
-    # end
+    def send_png(sasaeru)
+      pdf = MiniMagick::Image.open(send_pdf(sasaeru))
+
+      MiniMagick::Tool::Convert.new do |convert|
+        convert << pdf.pages.first.path
+        convert << "png:8sasaeru.png"
+        png = convert
+      end
+
+      send_data(png,
+                filename: "sasaeru.png",
+                type: "image/png",
+                disposition: "attachment")
+    end
 
     def generate_sasaeru_theme(sasaeru)
       file = File.join(Rails.root, "app", "assets", "reports", "sasaeru.tlf")
