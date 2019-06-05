@@ -23,6 +23,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'mini_magick', '~> 4.8'
 gem "figaro", "~> 1.1"
 gem "thinreports-rails"
+gem 'bootstrap-honoka-rails' , '~> 4.3.1'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
