@@ -3,3 +3,17 @@ ja:
     submit:
       create: 作成する
       update: 作成する
+    label:
+      sasaeru:
+        top_text: 一番上の文字
+        title: タイトル
+        sub_title: サブタイトル
+        author: 著者名
+        base_color: カラー
+        lead: リード文
+        sub_lead_1: サブリード文1
+        sub_lead_2: サブリード文2
+        sub_lead_3: サブリード文3
+        sub_lead_4: サブリード文4
+        bottom_text: ボトムテキスト
+        publisher: 出版社名
