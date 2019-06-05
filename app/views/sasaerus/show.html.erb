@@ -60,8 +60,8 @@
   <%= @sasaeru.publisher %>
 </p>
 
-<%= link_to 'Edit', edit_sasaeru_path(@sasaeru) %> |
-<%= link_to 'Back', sasaerus_path %>
+<%= link_to '変更する', edit_sasaeru_path(@sasaeru) %> |
+<%= link_to '戻る', new_sasaeru_path %>
 <hr>
 
-<%= link_to "Print PDF", sasaeru_path(@sasaeru, format: "pdf") %>
+<%= link_to "PDFでダウンロードする", sasaeru_path(@sasaeru, format: "pdf") %>
