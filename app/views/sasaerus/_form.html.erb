@@ -1,4 +1,4 @@
-<%= form_with(model: sasaeru, local: true) do |form| %>
+<%= form_with(model: sasaeru, local: true, class: "ml-4") do |form| %>
   <% if sasaeru.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(sasaeru.errors.count, "error") %> prohibited this sasaeru from being saved:</h2>
@@ -11,67 +11,91 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= form.label :top_text %>
-    <%= form.text_field :top_text, value: @sasaeru.top_text %>
+  <div class="form-group row">
+    <%= form.label :top_text, class: "col-lg-3 col-form-label"%>
+    <div class="col-lg-9">
+      <%= form.text_field :top_text, size: 30, value: @sasaeru.top_text, class: "form-control shadow-none" %>
+    </div>
   </div>
 
-  <div class="field">
-    <%= form.label :title %>
-    <%= form.text_field :title, value: @sasaeru.title %>
+  <div class="form-group row">
+    <%= form.label :title, class: "col-lg-3 col-form-label" %>
+    <div class="col-lg-9">
+      <%= form.text_field :title, size: 30, value: @sasaeru.title, class: "form-control shadow-none" %>
+    </div>
   </div>
 
-  <div class="field">
-    <%= form.label :sub_title %>
-    <%= form.text_field :sub_title, value: @sasaeru.sub_title %>
+  <div class="form-group row">
+    <%= form.label :sub_title, class: "col-lg-3 col-form-label" %>
+    <div class="col-lg-9">
+      <%= form.text_field :sub_title, size: 30, value: @sasaeru.sub_title, class: "form-control shadow-none" %>
+    </div>
   </div>
 
-  <div class="field">
-    <%= form.label :author %>
-    <%= form.text_field :author, value: @sasaeru.author %>
+  <div class="form-group row">
+    <%= form.label :author, class: "col-lg-3 col-form-label" %>
+    <div class="col-lg-9">
+      <%= form.text_field :author, size: 30, value: @sasaeru.author, class: "form-control shadow-none" %>
+    </div>
   </div>
 
-  <div class="field">
-    <%= form.label :base_color %>
-    <%= form.color_field :base_color, value: @sasaeru.base_color %>
+  <div class="form-group row">
+    <%= form.label :base_color, class: "col-lg-3 col-form-label" %>
+    <div class="col-lg-9 mt-1">
+      <%= form.color_field :base_color, value: @sasaeru.base_color %>
+    </div>
   </div>
 
-  <div class="field">
-    <%= form.label :lead, class: "text-area" %>
-    <%= form.text_area :lead, rows: 3, cols: 30, value: @sasaeru.lead %>
+  <div class="form-group row">
+    <%= form.label :lead, class: "col-lg-3 col-form-label" %>
+    <div class="col-lg-9">
+      <%= form.text_area :lead, rows: 2, cols: 30, value: @sasaeru.lead, class: "form-control shadow-none" %>
+    </div>
   </div>
 
-  <div class="field">
-    <%= form.label :sub_lead_1 %>
-    <%= form.text_field :sub_lead_1, size: 30, value: @sasaeru.sub_lead_1 %>
+  <div class="form-group row">
+    <%= form.label :sub_lead_1, class: "col-lg-3 col-form-label" %>
+    <div class="col-lg-9">
+      <%= form.text_field :sub_lead_1, size: 30, value: @sasaeru.sub_lead_1, class: "form-control shadow-none" %>
+    </div>
   </div>
 
-  <div class="field">
-    <%= form.label :sub_lead_2 %>
-    <%= form.text_field :sub_lead_2, size: 30, value: @sasaeru.sub_lead_2 %>
+  <div class="form-group row">
+    <%= form.label :sub_lead_2, class: "col-lg-3 col-form-label" %>
+    <div class="col-lg-9">
+      <%= form.text_field :sub_lead_2, size: 30, value: @sasaeru.sub_lead_2, class: "form-control shadow-none" %>
+    </div>
   </div>
 
-  <div class="field">
-    <%= form.label :sub_lead_3 %>
-    <%= form.text_field :sub_lead_3, size: 30, value: @sasaeru.sub_lead_3 %>
+  <div class="form-group row">
+    <%= form.label :sub_lead_3, class: "col-lg-3 col-form-label" %>
+    <div class="col-lg-9">
+      <%= form.text_field :sub_lead_3, size: 30, value: @sasaeru.sub_lead_3, class: "form-control shadow-none" %>
+    </div>
   </div>
 
-  <div class="field">
-    <%= form.label :sub_lead_4 %>
-    <%= form.text_field :sub_lead_4, size: 30, value: @sasaeru.sub_lead_4 %>
+  <div class="form-group row">
+    <%= form.label :sub_lead_4, class: "col-lg-3 col-form-label" %>
+    <div class="col-lg-9">
+      <%= form.text_field :sub_lead_4, size: 30, value: @sasaeru.sub_lead_4, class: "form-control shadow-none" %>
+    </div>
   </div>
 
-  <div class="field">
-    <%= form.label :bottom_text %>
-    <%= form.text_field :bottom_text, size: 30, value: @sasaeru.bottom_text %>
+  <div class="form-group row">
+    <%= form.label :bottom_text, class: "col-lg-3 col-form-label" %>
+    <div class="col-lg-9">
+      <%= form.text_field :bottom_text, size: 30, value: @sasaeru.bottom_text, class: "form-control shadow-none" %>
+    </div>
   </div>
 
-  <div class="field">
-    <%= form.label :publisher %>
-    <%= form.text_field :publisher, size: 30, value: @sasaeru.publisher %>
+  <div class="form-group row">
+    <%= form.label :publisher, class: "col-lg-3 col-form-label" %>
+    <div class="col-lg-9">
+      <%= form.text_field :publisher, size: 30, value: @sasaeru.publisher, class: "form-control shadow-none" %>
+    </div>
   </div>
 
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit class: "btn btn-primary text-white" %>
   </div>
 <% end %>
