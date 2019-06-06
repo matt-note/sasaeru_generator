@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>SasaeruGenerator</title>
+    <title>〇〇を支える技術ジェネレーター</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= render "favicon" %>
   </head>
 
   <body class="mt-3">
     <div class="container">
-      <%= render "app-name" %>      
+      <%= render "app-name" %>
       <%= yield %>
     </div>
   </body>
