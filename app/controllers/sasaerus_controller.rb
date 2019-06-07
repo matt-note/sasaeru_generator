@@ -4,7 +4,11 @@ class SasaerusController < ApplicationController
   # GET /sasaerus
   # GET /sasaerus.json
   def index
-    @sasaerus = Sasaeru.all
+    if params[:spell] == "開けごま"
+      @sasaerus = Sasaeru.all
+    else
+      redirect_to root_path
+    end
   end
 
   # GET /sasaerus/1
